@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "source": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
